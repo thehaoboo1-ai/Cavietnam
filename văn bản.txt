@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Cá Sông Ngòi Việt Nam</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background: #f4f4f4;
+      line-height: 1.6;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+    }
+    nav a {
+      color: #3498db;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      background: white;
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .btn {
+      display: inline-block;
+      background: #27ae60;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Hệ Thống Cá Sông Ngòi Việt Nam</h1>
+  <nav>
+    <a href="index.html">Trang Chủ</a> |
+    <a href="mien-nam.html">Cá Miền Nam</a> |
+    <a href="mien-bac.html">Cá Miền Bắc</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Lý do chọn đề tài</h2>
+  <p>
+    Việt Nam có hệ thống sông ngòi dày đặc, tạo điều kiện thuận lợi cho sự phát triển
+    của các loài cá nước ngọt. Việc tìm hiểu giúp nâng cao ý thức bảo vệ nguồn lợi
+    thủy sản bền vững.
+  </p>
+</section>
+
+<section>
+  <h2>Danh mục các loài cá phổ biến</h2>
+  <ul>
+    <li>Cá Rô Đồng</li>
+    <li>Cá Lóc</li>
+    <li>Cá Trê</li>
+    <li>Cá Diêu Hồng</li>
+  </ul>
+
+  <p>Chọn khu vực để xem chi tiết:</p>
+  <a href="mien-nam.html" class="btn">Xem Cá Miền Nam</a>
+  <a href="mien-bac.html" class="btn">Xem Cá Miền Bắc</a>
+</section>
+
+</body>
+</html>
